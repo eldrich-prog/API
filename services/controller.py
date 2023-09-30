@@ -4,8 +4,8 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# http://localhost:8000/api/hello
-@app.route('/') # EndPoint
+# http://localhost:8000/api/message
+@app.route('/api/message') # EndPoint
 def send_message():
     """Return a friendly HTTP greeting."""
     message = {'text': 'Hello World!'}
