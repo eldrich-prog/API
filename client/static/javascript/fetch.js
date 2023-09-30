@@ -1,0 +1,9 @@
+function message(){
+    fetch('http://localhost:8000/')
+        .then(response => {if (response.ok){
+            return response.json();}
+        }).then(data => {
+            console.log(data);
+            document.getElementById("response").innerHTML += data.text;
+        }).catch(error => {console.error(error)})
+}
