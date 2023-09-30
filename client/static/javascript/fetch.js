@@ -1,5 +1,5 @@
 function message(){
-    fetch('http://localhost:8000/api/message')
+    fetch('http://localhost:5000/api/message')
         .then(response => {if (response.ok){
             return response.json();}
         }).then(data => {
