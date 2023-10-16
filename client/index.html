@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <script src="static/javascript/fetch.js"></script>
 <body>
-    <h1>
-        <button onclick="message()">Conectar</button>
-        <div id="response">El server responde: </div>
-    </h1>
+    <header>
+        <h1>Firma Contable TELECO</h1>
+        <nav>
+            <ul>
+                <li><button onclick="message()">Connect Server</button></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div id="response">Respuesta del servidor: </div>
+        </nav>
+    </header>
+
+    <section id="servicios">
+        <h2>Servicios Contables</h2>
+        <p>Ofrecemos una amplia gama de servicios contables para empresas y particulares.</p>
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos un equipo de profesionales altamente calificados en el campo de la contabilidad.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos aquí para ayudarte. ¡Contáctanos!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Firma Contable TELECO</p>
+    </footer>
 </body>
 </html>

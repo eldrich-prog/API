@@ -21,18 +21,18 @@ Después de desarrollar tu aplicación, querrás hacerla disponible públicament
 
 El objetivo principal de estos documentos es familiarizarte con los conceptos involucrados en la ejecución de una aplicación WSGI utilizando un servidor WSGI de producción y un servidor HTTP. Hay muchos servidores WSGI y servidores HTTP, con muchas posibilidades de configuración. Las páginas siguientes discuten los servidores más comunes, y muestran los fundamentos de la ejecución de cada uno. La siguiente sección discute las plataformas que pueden gestionar esto por ti.
 
-** Gunicorn
-** Waitress
-** mod_wsgi
-** uWSGI
-** gevent
-** eventlet
-** ASGI
+* Gunicorn
+* Waitress
+* mod_wsgi
+* uWSGI
+* gevent
+* eventlet
+* ASGI
 
 # UTILIZAR DOCKER
 
 ## Build
-- ** docker build -t name_docker . **
+- **docker build -t name_docker .**
 
 ## Run
-- ** docker run -p 5000:5000 name_docker **
+- **docker run -p 5000:5000 name_docker**
